@@ -1,11 +1,11 @@
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import Image from 'next/image';
 
 interface Tprops{
-  name:string,
-  rollno:number,
-  day:string,
-  imageSrc:string
+  name:string;
+  rollno:number;
+  day:string;
+  imageSrc:string;
 }
 const Card = (props:Tprops) => {
   return (
@@ -24,5 +24,5 @@ const Card = (props:Tprops) => {
     </div>
   )
 }
-export  default Card
+export  default Card;
 
