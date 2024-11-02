@@ -12,7 +12,7 @@ const Card = (props:Tprops) => {
     <div className='bg-slate-600 rounded-lg shadow-lg font-bold md:w-1/2 m-4'>
       <h1 className='text-xl p-5 text-center text-white'>Student ID Card</h1> 
       <div className='bg-white relative bottom-3'><br />
-      <Image src="/image/profile_picture.jpeg" alt="profile picture" width={90}height={90}
+      <Image src={props.imageSrc} alt="profile picture" width={90}height={90}
           className="bg-transparent relative left-72 top-6 border-slate-600 border-l-2 border-r-2 border-t-2 border-b-2 "/>
           <div className='relative bottom-16 left-10'>
         <h1 className='mb-2 '>Name: {props.name}</h1>
